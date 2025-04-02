@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #eeeeee;
+    color: black;
+}
+
+.header-logo{
+    width: 25%;
+    justify-content: center;
+    padding: 5px;
+    border: 1px red solid;
+}
+
+.logo {
+    width: 25%;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+.lista-categorias{
+    background-color: #414b50;
+    width: 25%;
+}
+
+.lista-categorias-content{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.lista-categorias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-categorias ul li {
+    margin-bottom: 0.5rem;
+}
+
+.lista-categorias ul li a {
+    text-decoration: none;
+    color: #222;
+}
+
+#principal{
+    width: 75%;
+}
+
+#principal-header{
+    background-color: #e55745;
+    display:flex;
+    justify-content: space-between;
+    padding: 3% 5% 3% 5%;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5% 3% 5%;
+    background-color: #eeeeee;
+}
+
+.discos{
+    display:flex;
+    justify-content: space-between;
+}
+
+.disco{
+    max-width: 20%;
+    border-radius: 7px;
+    background-color: #fefefe;
+    border: solid 1px #fefefe;
+}
+
+.disco img{
+    max-width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+.disco-info{
+    display:flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.disco-info h3,p{
+    margin: 3px 0 3px 0;
+}
+
+.disco-info h3{
+    color:#e55745;
+}
+
+.disco-info-precio{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.disco-info-precio h3{
+    color:#222;
+}
