@@ -8,8 +8,8 @@ body {
 .header-cointainer {
     display: flex;
     align-items: center;
-    background-color: #dddddd;
-    color: black;
+    background-color: #222;
+    color: #fefefe;
 }
 
 .header-logo{
@@ -93,6 +93,52 @@ main{
     display:flex;
     justify-content: space-between;
     padding: 3% 5% 3% 5%;
+}
+
+.principal-header-search input {
+    width: 150px;
+    max-width: 150px; /* Controla el ancho máximo */
+    padding: 7px;
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 7px;
+    outline: none; /* Quita el borde oscuro al hacer clic */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.principal-header-search input:focus {
+    border-color: #222; /* Cambia el color del borde al enfocarse */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Efecto de brillo */
+}
+
+.principal-header-search button {
+    padding: 5px 20px;
+    font-size: 15px;
+    background-color: #e55745; /* Azul profesional */
+    color: white;
+    border: 1px solid #fefefe;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.principal-header-search button:hover {
+    background-color: #e67566; /* Azul más oscuro al pasar el mouse */
+}
+
+.principal-header-explore{
+    display: flex;
+    align-items: center;
+}
+.principal-header-explore a {
+    color: white; /* Texto en blanco */
+    text-decoration: none; /* Quita el subrayado */
+    font-size: 16px; /* Ajusta el tamaño de la letra */
+    font-weight: bold; /* Hace que se vea más sólido */
+    transition: color 0.3s ease-in-out; /* Suaviza el cambio de color */
+}
+
+.principal-header-explore a:hover {
+    color: #f0f0f0; /* Cambia a un tono más claro al pasar el mouse */
 }
 
 .categoria{
