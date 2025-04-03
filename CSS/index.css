@@ -1,0 +1,213 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-cointainer {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    color: #fefefe;
+}
+
+.header-logo{
+    width: 25%;
+    justify-content: center;
+}
+
+.logo {
+    width: 80px;
+    padding: 0 10px;
+}
+
+.header-title{
+    width: 75%;
+}
+
+.header-title h1{
+    padding: 0 23%;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+.lista-categorias{
+    background-color: #414b50;
+    width: 25%;
+    color: #dddddd;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.lista-categorias-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lista-categorias-content-items{
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.lista-categorias-content-items li {
+    height: 50px;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-categorias-content-items li:hover {
+    background-color: #515b60;
+}
+
+.lista-categorias-content-items li:hover a {
+    color: #e55745;
+}
+
+.lista-categorias-content-items li a {
+    color: #dddddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+#principal{
+    width: 75%;
+}
+
+.principal-body{
+    padding: 0 0 50px 0;
+    background-color: #dddddd;
+}
+
+#principal-header{
+    background-color: #e55745;
+    display:flex;
+    justify-content: space-between;
+    padding: 3% 5% 3% 5%;
+}
+
+.principal-header-search input {
+    width: 150px;
+    max-width: 150px; /* Controla el ancho máximo */
+    padding: 7px;
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 7px;
+    outline: none; /* Quita el borde oscuro al hacer clic */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.principal-header-search input:focus {
+    border-color: #222; /* Cambia el color del borde al enfocarse */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Efecto de brillo */
+}
+
+.principal-header-search button {
+    padding: 5px 20px;
+    font-size: 15px;
+    background-color: #e55745; /* Azul profesional */
+    color: white;
+    border: 1px solid #fefefe;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.principal-header-search button:hover {
+    background-color: #e67566; /* Azul más oscuro al pasar el mouse */
+}
+
+.principal-header-explore{
+    display: flex;
+    align-items: center;
+}
+.principal-header-explore a {
+    color: white; /* Texto en blanco */
+    text-decoration: none; /* Quita el subrayado */
+    font-size: 16px; /* Ajusta el tamaño de la letra */
+    font-weight: bold; /* Hace que se vea más sólido */
+    transition: color 0.3s ease-in-out; /* Suaviza el cambio de color */
+}
+
+.principal-header-explore a:hover {
+    color: #f0f0f0; /* Cambia a un tono más claro al pasar el mouse */
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5% 3% 5%;
+    background-color: #dddddd;
+}
+
+.categoria h2{
+    font-size: 1.6rem;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.discos{
+    display:flex;
+    justify-content: space-between;
+}
+
+.disco{
+    max-width: 20%;
+    border-radius: 7px;
+    background-color: #fefefe;
+    border: solid 1px #fefefe;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto suave */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.disco:hover {
+    transform: scale(1.05); /* Agranda la card un 5% */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
+}
+
+.disco img{
+    max-width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+.disco-info{
+    display:flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.disco-info h3,p{
+    margin: 3px 0 3px 0;
+}
+
+.disco-info h3{
+    color:#e55745;
+}
+
+.disco-info-precio{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.disco-info-precio h3{
+    color:#222;
+}
+
+.footer-container{
+    background-color: #222;
+    color: #e55745;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
