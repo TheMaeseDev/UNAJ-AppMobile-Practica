@@ -88,7 +88,7 @@ main{
     background-color: #dddddd;
 }
 
-#principal-header{
+.principal-header{
     background-color: #e55745;
     display:flex;
     justify-content: space-between;
