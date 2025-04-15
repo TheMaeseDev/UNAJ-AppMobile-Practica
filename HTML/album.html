@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Venta de Discos</title>
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/album.css">
 </head>
 <body>
@@ -34,10 +35,10 @@
             </div>
         </nav>
 
-        <section>
+        <section id="principal">
             <div class="principal-header">
-                <div class="principal-header-search">
-                    <h2>Volver a la tienda</h2>
+                <div class="principal-header-text">
+                    <h3>Volver a la tienda</h3>
                 </div>
 
                 <div class="principal-header-explore">
@@ -64,27 +65,21 @@
                             <h2>Nombre Artista</h2>
                         </div>
                         <div class="album-info-buy">
-                            <div class="album-info-buy-stats">
-
-                            </div>
-
-                            <div class="album-info-header-buy-buttons">
-                                <button></button>
-                                <button></button>
-                            </div>
+                            <button class="button-black">Agregar al carrito</button>
+                            <button class="button-orange">Comprar Ahora</button>
                         </div>
                     </div>
                 </div>
 
                 <section class="songs-preview">
                     <div class="songs-preview-header">
-                        <h2>Preview all songs of "Nombre artista"</h2>
+                        <h2>Lista de canciones de "Titulo album"</h2>
                     </div>
                     <div class="songs-preview-list">
                         <article class="songs-preview-list-item">
                             <div class="songs-preview-list-item-info">
-                                <h2>Las increibles andanzas...</h2>
-                                <h2 id="Song-writer">Solari, Beillinson</h2>
+                                <h2 class="song-title">Las increibles andanzas...</h2>
+                                <h2 class="song-writer">Solari | Beillinson</h2>
                             </div>
                             <div class="songs-preview-list-item-duration">
                                 <h2>03:44</h2>
@@ -93,8 +88,8 @@
 
                         <article class="songs-preview-list-item">
                             <div class="songs-preview-list-item-info">
-                                <h2>Estas frito angelito</h2>
-                                <h2 id="Song-writer">Solari, Beillinson</h2>
+                                <h2 class="song-title">Estas frito angelito</h2>
+                                <h2 class="song-writer">Solari | Beillinson</h2>
                             </div>
                             <div class="songs-preview-list-item-duration">
                                 <h2>03:44</h2>
@@ -103,8 +98,8 @@
 
                         <article class="songs-preview-list-item">
                             <div class="songs-preview-list-item-info">
-                                <h2>El arbol del gran bonete</h2>
-                                <h2 id="Song-writer">Solari, Beillinson</h2>
+                                <h2 class="song-title">El arbol del gran bonete</h2>
+                                <h2 class="song-writer">Solari | Beillinson</h2>
                             </div>
                             <div class="songs-preview-list-item-duration">
                                 <h2>03:44</h2>
@@ -117,6 +112,14 @@
         </section>
 
     </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Venta de Discos - Todos los derechos reservados</p>
+            <p>Unaj - Aplicaciones Moviles 2025</p>
+            <p>Alvarez Diego</p>
+        </div>
+    </footer>
 
 </body>
 </html>
