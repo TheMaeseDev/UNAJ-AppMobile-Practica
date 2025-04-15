@@ -1,0 +1,46 @@
+
+
+main{
+    background-color: var(--MainBackgroudColor);
+}
+
+#formulario-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#encuestaForm{
+    padding: 2%;
+    margin: 2%;
+    border-radius: var(--MainBorderRadius);
+    background-color: var(--MainWhite);
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.buttons{
+    margin: 15px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: var(--MainWhite);
+    border: 1px solid #fefefe;
+    background-color: var(--MainBlack);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#button-enviar{
+    background-color: var(--MainOrange); 
+}

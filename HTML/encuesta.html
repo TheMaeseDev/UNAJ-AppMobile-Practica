@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="../JS/Encuesta.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/encuesta.css">
+</head>
+<body>
+    
+    <header id="header">
+    </header>
+
+    <main>
+        <section id="formulario-container">
+            <form id="encuestaForm">
+                <label>Nombre:
+                  <input type="text" id="nombre" name="nombre">
+                </label>
+            
+                <label>Apellido:
+                  <input type="text" id="apellido" name="apellido">
+                </label>
+            
+                <label>Fecha de Nacimiento (dd-mm-aaaa):
+                  <input type="text" id="fechaNacimiento" name="fechaNacimiento">
+                </label>
+            
+                <label>Sexo:
+                  <select id="sexo" name="sexo">
+                    <option value="">Seleccionar...</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                </label>
+            
+                <label>Valoración de la página:
+                  <select id="valoracion" name="valoracion">
+                    <option value="">Seleccionar...</option>
+                    <option value="Lamentable">Lamentable</option>
+                    <option value="Mala">Mala</option>
+                    <option value="Podría ser mejor">Podría ser mejor</option>
+                    <option value="Cumple con mis expectativas">Cumple con mis expectativas</option>
+                    <option value="Me encantó">Me encantó</option>
+                  </select>
+                </label>
+            
+                <label>Email:
+                  <input type="text" id="email" name="email">
+                </label>
+            
+                <label>Comentario:
+                  <textarea id="comentario" name="comentario" rows="4"></textarea>
+                </label>
+            
+                <div class="buttons">
+                  <button id="button-enviar" onclick="enviarFormulario()">Enviar</button>
+                  <button id="button-cancelar" type="button">Cancelar</button>
+                  <button id="button-restablecer" type="button">Restablecer valores</button>
+                </div>
+              </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+    </footer>
+</body>
+</html>
