@@ -115,8 +115,14 @@
 .songs-preview-list-item{
     display: flex;
     justify-content: space-between;
-    padding: 15px 5% 15px 5%;
+    padding: 8px 5% 8px 5%;
     border-radius: 7px;
+    background-color: #fefefe;
+    font-size: 0.8rem;
+}
+
+.songs-preview-list-item:hover{
+    background-color: #a1a1a1;
 }
 
 .songs-preview-list-item-info{
