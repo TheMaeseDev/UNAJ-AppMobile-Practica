@@ -1,4 +1,10 @@
-
+:root{
+    --MainOrange:#e55745;
+    --MainBlack: #222;
+    --MainWhite: #fefefe;
+    --MainBorderRadius: 7px;
+    --MainBackgroudColor: #dddddd;
+}
 
 body {
     font-family: Arial, sans-serif;
